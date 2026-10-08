@@ -1,0 +1,93 @@
+body {
+    background-color: #f8e8ee;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #8b3a62;
+    font-size: 50px;
+}
+
+p {
+    color: #444;
+    font-size: 20px;
+}
+/* General page styling */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+
+    background-color: #ffffff;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Hero section */
+
+.hero {
+    text-align: center;
+
+    padding: 150px 20px;
+
+    background-color: #f8e8ee;
+}
+
+.hero h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/* Button */
+
+button {
+    padding: 12px 25px;
+
+    border: none;
+    border-radius: 5px;
+
+    background-color: #8b3a62;
+    color: white;
+
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6d2d4d;
+}
